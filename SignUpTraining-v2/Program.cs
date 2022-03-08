@@ -32,7 +32,7 @@ namespace SignUpTraining_v2
 
             await page.ClickAsync("[class='arrow right']");
 
-            var trainingDay = new TrainingWeek().GetTrainingDaySelectors();
+            var trainingDay = new TrainingWeek(serviceProvider).GetTrainingDaySelectors();
 
             foreach (var selector in trainingDay)
             {
