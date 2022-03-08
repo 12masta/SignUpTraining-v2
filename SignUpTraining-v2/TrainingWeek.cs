@@ -18,7 +18,7 @@ namespace SignUpTraining_v2
             new(2, new() {"id=d-2_g-17", "id=d-2_g-18", "id=d-2_g-19"}),
             new(3, new() {"id=d-3_g-17", "id=d-3_g-18", "id=d-3_g-19"}),
             new(4, new() {"id=d-4_g-17", "id=d-4_g-18", "id=d-4_g-19"}),
-            new(5, new() {"id=d-5_g-17", "id=d-5_g-18"})
+            new(5, new() {"id=d-5_g-17", "id=d-5_g-18", "id=d-5_g-19"})
         };
 
         public List<string> GetTrainingDaySelectors()
